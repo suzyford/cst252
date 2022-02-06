@@ -1,24 +1,25 @@
 body {
-  background-color: #000000;;
+  background-color: #86aa87;;
 }
 
 p {
   font-family: optima;
   font-size: 20px;
   padding-left: 100px;
-  color: #c0c0c0;
+  color: #f5e8c3;
 }
 h1 {
-  color: #a9a9a9;
+  color: #8645ba;
   text-align: left;
   line-height: 100px
 }
+
 h2 {
   font-family: snell roundhanded, cursive;
   font-size: 40px;
   padding-left: 100px;
-  color: #fff8dc;
-
+  color: #86d7bd;
+}
 h3 {
   font-family: optima, sans-serif;
   color: #ffffff;
@@ -71,7 +72,7 @@ position: absolute; left: -0px;
 .cloud:after, .cloud:before {
 	content: '';
 	position: absolute;
-	background: #ffffff;
+	background: #86d7bd;
 	z-index: -1
 }
 
