@@ -1,0 +1,41 @@
+body {
+  background-image: url("../img/dogrunning.gif");
+  background-size: cover;
+}
+​
+h1 {
+color: white;
+font-size: 200%;
+}
+​
+h2 {
+color: brown;
+font-size: 200%;
+}
+​
+p {
+color: brown;
+position: center;
+}
+​
+h3 {
+  color: white;
+  font-size: 200%;
+  }
+​
+nav a {
+  color: white;
+  text-transform: uppercase;
+  font-size: 110%;
+  text-decoration: none;
+  font-family: "Times New Roman",sans-serif;
+}
+​
+#sidebar {
+  float: right;
+  margin: 20px;
+  width: 25%;
+  min-width: 150px;
+  border: dashed 5px skyblue;
+  background-color: teal;
+}
