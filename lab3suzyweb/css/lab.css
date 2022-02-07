@@ -7,6 +7,7 @@ p {
   font-size: 20px;
   padding-left: 100px;
   color: #f5e8c3;
+  
 }
 h1 {
   color: #8645ba;
@@ -41,6 +42,17 @@ h1 {
   font-size: 50px;
   font-weight: 600;
   color: #f2e1c4;
+}
+figure {
+  float: right;
+  width: 40%;
+  text-align: right;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.8em;
+  padding: 0.5em;
 }
 }
 img {
