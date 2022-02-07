@@ -7,7 +7,7 @@ p {
   font-size: 20px;
   padding-left: 100px;
   color: #f5e8c3;
-  
+
 }
 h1 {
   color: #8645ba;
@@ -45,20 +45,20 @@ h1 {
 }
 figure {
   float: right;
-  width: 40%;
-  text-align: right;
+  width: 30%;
+  text-align: center;
   font-style: italic;
   font-size: smaller;
   text-indent: 0;
-  border: thin silver solid;
-  margin: 0.8em;
-  padding: 0.5em;
+
+  margin: 1em;
+  padding: 0.8em;
 }
 }
 img {
 
 padding-left: 50px;
-position: absolute; left: -0px;
+position: center; left: -0px;
 }
 .cloud {
 	width: 350px; height: 220px;
