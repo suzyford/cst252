@@ -14,7 +14,7 @@ year = 2006;
 age = 2022 - year;
 
 // output
-document.writeln("Make: " + make + "<br>");
+document.writeln("<b>Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
