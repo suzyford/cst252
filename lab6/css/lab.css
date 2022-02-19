@@ -1,0 +1,27 @@
+body {
+  background-color: #d1d3d4;;
+}
+h1 {
+  color: #c10900;
+  padding-left: 100px;
+  font-size: 40px;
+  line-height: 100px
+}
+p {
+  font-family: optima;
+  font-size: 20px;
+  padding-left: 100px;
+  color: #000000;
+}
+h2 {
+  font-family: snell roundhanded, cursive;
+  font-size: 40px;
+  padding-left: 100px;
+  color: #ffffff;
+}
+script {
+      font-family: optima;
+      font-size: 20px;
+      padding-left: 100px;
+      color: #000000;
+}
