@@ -2,7 +2,8 @@ body {
 
 }
 h1 {
-  color: #c10900;
+  font-family: arial black;
+  color: #07ae06;
   padding-left: 100px;
   font-size: 40px;
   line-height: 100px
@@ -11,17 +12,17 @@ p {
   font-family: optima;
   font-size: 20px;
   padding-left: 100px;
-  color: #000000;
-}
-h2 {
-  font-family: snell roundhanded, cursive;
-  font-size: 40px;
-  padding-left: 100px;
   color: #ffffff;
 }
+h2 {
+  font-family: arial narrow;
+  font-size: 30px;
+  padding-left: 100px;
+  color: #f3bd0f;
+}
 script {
-      font-family: optima;
-      font-size: 20px;
+      font-family: arial black;
+      font-size: 10px;
       padding-left: 100px;
       color: #000000;
 }
