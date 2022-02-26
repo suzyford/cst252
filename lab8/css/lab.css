@@ -26,3 +26,8 @@ script {
       padding-left: 100px;
       color: #000000;
 }
+#output {
+  min-height: 40px;
+  border: solid 2px white;
+  padding: 10px;
+}
