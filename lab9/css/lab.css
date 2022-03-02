@@ -29,7 +29,7 @@ script {
 
 a {
     text-decoration: none;
-    color: limegreen;
+    color: gold;
 }
 .linkbox {
     padding: 10px;
@@ -37,9 +37,6 @@ a {
 }
 .javascript link {
     text-align: left;
-}
-
-
 }
 
 #output {
