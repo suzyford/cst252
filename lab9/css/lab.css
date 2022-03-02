@@ -26,20 +26,22 @@ script {
   padding-left: 100px;
   color: #000000;
 }
+
+a {
+    text-decoration: none;
+    color: limegreen;
+}
 .linkbox {
     padding: 10px;
-    font-size: 80%;
+    font-size: 150%;
 }
 .javascript link {
     text-align: left;
 }
-.index.HTML link {
-    float: right;
-a {
-    text-decoration: none;
-    color: lime;
+
+
 }
-}
+
 #output {
   min-height: 40px;
   border: solid 2px white;
