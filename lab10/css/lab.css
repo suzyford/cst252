@@ -1,0 +1,69 @@
+body {
+
+}
+h1 {
+  font-family: arial black;
+  color: #07ae06;
+  padding-left: 100px;
+  font-size: 40px;
+  line-height: 100px
+}
+p {
+  font-family: optima;
+  font-size: 20px;
+  padding-left: 100px;
+  color: #ffffff;
+}
+h2 {
+  font-family: arial narrow;
+  font-size: 30px;
+  padding-left: 100px;
+  color: #f3bd0f;
+}
+script {
+  font-family: arial black;
+  font-size: 10px;
+  padding-left: 100px;
+  color: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+.linkbox {
+    padding: 10px;
+    font-size: 150%;
+}
+.javascript link {
+    text-align: left;
+}
+#output {
+  min-height: 40px;
+  border: solid 2px white;
+  padding: 20px;
+  color: #07ae06;
+}
+  .namebadge {
+    float: right;
+    width: 400px;
+}
+.namebadge img {
+    width: 100%;
+    height: auto;
+}
+
+#name-results {
+    position: absolute;
+    top: 210px;
+    right: 80px;
+    width: 450px;
+    /*border: solid 1px black;*/
+    word-wrap: break-word;
+    font-size: 350%;
+    line-height: 90%;
+    font-weight: bold;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    margin: 20px;
+}
