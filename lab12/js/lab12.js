@@ -1,12 +1,39 @@
 /*
 * Authors: Suzy Ford & Art Rios
-* Created: 09 March 2022
+* Created: 14 March 2022
 * License: Public Domain
 */
-//thanks to this site for saving us another 2 hors! https://www.geeksforgeeks.org/how-to-set-alert-message-on-button-click-in-jquery/
+//thanks to Wes for an awesome lecture :)
 
-$(document).ready(function () {
-    $("#btn").click(function () {
-    alert("Hello! You have reached our fabulous alert message. Why? We're not sure.");
-    });
+
+var myButton = $("<button>");
+myButton.html("Press me");
+$("#output").append(myButton);
+
+
+myButton.click(function(){
+
+	myButton.addClass("green-button");
+
+	$("#pop-up").toggleClass("shown");
+})
+
+$("#pop-submit").click(function(){
+	var name = $("#stuff").val();
+	$("#your-name-here").html(name);
+	$("#pop-up").removeClass("shown");
+})
+
+$("button.red").click(function(){
+  $("#target2").removeClass("green");
+	$("#target1").toggleClass("red")
+});
+$("button.green").click(function(){
+  $("#target1").removeClass("red");
+	$("#target2").toggleClass("green");
+});
+$("button.blue").click(function(){
+  $("#target1").removeClass("red");
+	$("#target2").removeClass("green");
+	$("#target3").toggleClass("blue");
 });
