@@ -35,4 +35,3 @@ $("#my-button").click(function(){
   $("output").html("The Sorting Hat Has Sorted You Into" + house);
 
 });
-}
