@@ -5,6 +5,24 @@
 */
 //thanks to Wes for an awesome lecture :)
 
+houseArray = [
+  {
+  title: "Gryffindor",
+  text: "Oh lucky!"
+},
+{
+  title: "Ravenclaw",
+  text: "You Like?"
+},
+{
+  title: "Slytherin",
+  text: "Take Your Chances Here."
+},
+{
+  title: "Hufflepuff",
+  text: "What the....?"
+}
+]
 
 function sortinghHat(str) {
   //get length of name
