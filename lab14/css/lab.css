@@ -1,8 +1,10 @@
 h1 {
-  font-family: arial black;
+  font-family: black;
+  color: #44C6E3;
   padding-left: 75px;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 100px
+
 }
 p {
   font-family: optima;
@@ -34,7 +36,7 @@ script {
   color: #000000;
 }
 
-.challenges, .results, .problems, .you {
+.challenges, .results, .problems, {
     border: solid 6px white;
     padding: 20px;
     margin: 20px;
