@@ -28,6 +28,10 @@ for (let i = 1; i <= 110; i++) {
 
     if (buildStr != "") {
         console.log(buildStr + "!");
-
+        $("output").append("<p>" + buildStr + "!");
     }
-  }
+    else {
+      console.log(i);
+      $("output").append("<p>" + i);
+    }
+}
