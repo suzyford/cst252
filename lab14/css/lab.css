@@ -1,6 +1,7 @@
 body {
   background-image: url("../img/background3.jpg");
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 h1 {
   font-family: black;
@@ -26,7 +27,7 @@ h3 {
     font-family: arial;
     color: #ba2026;
     font-size: 20px;
-    padding-left: 0px;
+    padding-left: 75px;
 }
 .button
 {
@@ -58,45 +59,11 @@ a {
     text-align: left;
 }
 
-input[type="number"] {
-    width: 40px;
-}
-input[type="text"] {
-    width: 100px;
-}
-
-input#max {
-    width: 60px;
-}
-
-table {
-    padding: 20px;
-}
-
-input, button {
-    font-size: 90%;
-}
-
-div#input, div#output {
-    border: solid 1px #ccc;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.5);
-}
 
 #output p {
     margin-top: 0;
     margin-bottom: 0;
-    background-color: lightgray;
-    color: #8C001A;
-}
-
-#output.cols {
-    -webkit-column-width: 200px;
-    -moz-column-width: 200px;
-    column-width: 200px;
-}
-
-.error {
-    color: red;
-    font-weight: bold;
+    padding-left: 50;
+    background-color: #44C6E3;
+    color: #ffffff;
 }

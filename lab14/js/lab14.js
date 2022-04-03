@@ -6,7 +6,7 @@
 // :)
 
 // print all the numbers from 1 to 100
-for (let i = 1; i <= 110; i++) {
+for (let i = 1; i <= 200; i++) {
     // For numbers which are multiples of both 3 and 5,
 
     var buildStr = "";
@@ -28,10 +28,10 @@ for (let i = 1; i <= 110; i++) {
 
     if (buildStr != "") {
         console.log(buildStr + "!");
-        $("output").append("<p>" + buildStr + "!");
+        $("#output").append("<p>" + buildStr + "!");
     }
     else {
       console.log(i);
-      $("output").append("<p>" + i);
+      $("#output").append("<p>" + i);
     }
-}
+  }
