@@ -15,7 +15,8 @@ function Vehicle(make, model, year, color, extras, name) {
   this.extras = extras;
   this.name = name;
   this.info = function() {
-    return ("It was a " + this.make + " " + this.model + " " + this.year + " " + this.color + " with " + this.extras + " with this super cool name: " + this.name);
+    return ("It was a " + this.make + " " + this.model + " " + this.year + " " + this.color + " with " + this.extras +
+    " with this super cool name: " + this.name);
   }
 }
 //Create Objects for each vehicle
