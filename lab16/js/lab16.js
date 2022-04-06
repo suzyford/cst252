@@ -15,13 +15,13 @@ function Vehicle(make, model, year, color, extras, name) {
   this.extras = extras;
   this.name = name;
   this.info = function() {
-    return ("It was a " + this.make + " " + this.model + " " + this.year + " " + this.color + " with " + this.extras + " named " + this.name);
+    return ("It was a " + this.make + " " + this.model + " " + this.year + " " + this.color + " with " + this.extras + " with this super cool name: " + this.name);
   }
 }
 //Create Objects for each vehicle
-var vehicle1 = new Vehicle ("Volkswagon", "Bug,", "1967,", "red,", "a stick shift", "Lucy");
+var vehicle1 = new Vehicle ("Volkswagon", "Bug,", "1967,", "red,", "a stick shift,", "Lucy");
 var vehicle2 = new Vehicle ("Chevy", "Camaro,", "1981,", "red,", "lots of power,", "Big Boy");
-var vehicle3 = new Vehicle ("BMW", "530i,", "1989,", "gold,", "all the bells and whisles,", "Goldie");
+var vehicle3 = new Vehicle ("BMW", "530i,", "1989,", "gold,", "all the bells and whistles,", "Goldie");
 var vehicle4 = new Vehicle ("Mazda", "RX7,", "1995,", "blue,", " a sun roof & front engine,", "Speedy");
 var vehicle5 = new Vehicle ("Isuzu", "Trooper,", "1999,", "gold,", "seat warmers & sunroof,", "Troop");
 var vehicle6 = new Vehicle ("Isuzu", "Rodeo", "2000", "white", "no power", "Poop Bucket");
