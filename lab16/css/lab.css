@@ -1,7 +1,7 @@
 body {
     background-image: url("../img/background3.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 h1 {
   font-family: black;
@@ -66,5 +66,5 @@ a {
     padding-left: 100;
     background-color: #44C6E3;
     color: #ffffff;
-    padding-left: 
+
 }
