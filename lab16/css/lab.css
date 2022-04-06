@@ -29,17 +29,6 @@ h3 {
     font-size: 30px;
     padding-left: 100px;
 }
-.button
-{
-    font-size: 13px;
-    color:red;
-}
-script {
-  font-family: arial black;
-  font-size: 10px;
-  padding-left: 100px;
-  color: #000000;
-}
 
 .challenges, .results, .problems {
     border: solid 6px white;
@@ -58,7 +47,6 @@ a {
 .javascript link {
     text-align: left;
 }
-
 
 #output p {
   margin-top: 20;
