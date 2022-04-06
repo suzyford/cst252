@@ -61,10 +61,10 @@ a {
 
 
 #output p {
-    margin-top: 20;
-    margin-bottom: 20;
-    padding-left: 100;
-    background-color: #44C6E3;
-    color: #ffffff;
+  margin-top: 20;
+  margin-bottom: 20;
+  padding-left: 100;
+  background-color: #44C6E3;
+  color: #000000;
 
 }
