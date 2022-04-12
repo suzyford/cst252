@@ -1,9 +1,8 @@
 body {
-    background-image: url("../img/background3.jpg");
-    background-position: center;
-    background-size: cover;
+  background-image: url("../img/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-
 h1 {
   font-family: black;
   color: #44C6E3;
@@ -26,15 +25,26 @@ h2 {
 
 h3 {
     font-family: arial;
-    color: #C3168D;
-    font-size: 30px;
-    padding-left: 100px;
+    color: #ba2026;
+    font-size: 20px;
+    padding-left: 75px;
+}
+.button
+{
+    font-size: 13px;
+    color:red;
+}
+script {
+  font-family: arial black;
+  font-size: 10px;
+  padding-left: 100px;
+  color: #000000;
 }
 
 .challenges, .results, .problems {
     border: solid 6px white;
-    padding: 10px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
 }
 
 a {
@@ -49,13 +59,11 @@ a {
     text-align: left;
 }
 
-#output p {
-  margin-top: 20;
-  margin-bottom: 20;
-  padding-left: 100;
-  background-color: #44C6E3;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 30px
 
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 50;
+    background-color: #44C6E3;
+    color: #ffffff;
 }
