@@ -2,9 +2,6 @@ body {
     background-image: url("../img/background3.jpg");
     background-position: center;
     background-size: cover;
-  }
-.col-sm-4, .col-lg-6 {
-background-color: #44C6E3;
 }
 h1 {
   font-family: black;
