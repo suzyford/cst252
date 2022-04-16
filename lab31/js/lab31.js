@@ -9,8 +9,8 @@
 //var url = "http://numbersapi.com/random/trivia";
 //var url = "https://cataas.com/cat?json=true";
 //var domain = "https://cataas.com";
-var url = "https://api.nasa.gov/planetary/apod";
-var apiKey = "UmiYgYbsi5u0vcZjdNktcvNgy7Z798AffpoSpEIp";
+var url = "https://dog.ceo/api/breeds/image/random";
+
 
 // When a user clicks the button
 $("#press-me").click(getAjax);
@@ -22,10 +22,6 @@ function getAjax() {
       // The URL for the request
       url: url,
       // The data to send (will be converted to a query string)
-      data: {
-      	api_key: apiKey,
-        count: 1
-      },
       // Whether this is a POST or GET request
       type: "GET",
       // The type of data we expect back
@@ -36,7 +32,7 @@ function getAjax() {
       //alert("Success!");
       thisData = data[0];
       console.log(data);
-      fullUrl = thisData.url;
+
       // Insert the output in the output div
 
       $("#output").html("<h3>" + thisData.title);
