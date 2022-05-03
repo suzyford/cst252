@@ -1,58 +1,174 @@
-body {
-    background-image: url("../img/background3.jpg");
-    background-position: center;
-    background-size: cover;
+
+
+
+#logo-img {
+  width: min(50vw, 200px);
+}
+header img {
+    height: 50px;
+    margin-left: 40px;
 }
 
-h1 {
-  font-family: black;
-  color: #44C6E3;
-  padding-left: 75px;
-  font-size: 50px;
-  line-height: 100px
+main {
+    color: white;
 }
 
-p {
-  font-family: optima;
-  font-size: 20px;
-  padding-left: 100px;
+header {
+    background-color: #c6e0d5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 grey;
 }
 
-h2 {
-  font-family: arial black;
-  font-size: 30px;
-  padding-left: 75px;
+header * {
+    display: inline;
 }
+
+header li {
+    margin: 40px;
+    font-size: 20px
+}
+
+header li a {
+    color: #ad368a;
+    text-decoration: none;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 40px;
+   background-color: #c6e0d5;
+   color: #ad368a;
+   font-size: 20px;
+   text-align: center;
+   box-shadow: 0 0 30px 0 grey;
+
+}
+
+footer * {
+    display: inline;
+}
+
 
 h3 {
-    font-family: arial;
-    color: #C3168D;
-    font-size: 30px;
-    padding-left: 100px;
+  font-family: black;
+  color: #ad368a;
+  justify-content: center;
+  font-size: 75px;
+  line-height: 90px
 }
 
-.challenges, .results, .problems {
-    border: solid 6px white;
-    padding: 10px;
-    margin: 30px;
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #506c3c;
+  justify-content: center;
+  font-size: 20px;
+  line-height: 60px
 }
 
-a {
-    text-decoration: none;
-    color: black;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.linkbox {
-    padding: 10px;
-    font-size: 120%;
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fdf5ea;
+  font-family: 'Poppins', sans-serif;
 }
-.javascript link {
-    text-align: left;
+
+.wrapper{
+width: 600px;
+background: #fff;
+border-radius: 10px;
+padding: 18px 25px 20px;
+}
+
+.wrapper :where(.title, li, li i){
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .title h2{
+  font-size: 21px;
+  font-weight: 600;
+  margin-left: 0px;
+}
+
+.wrapper .content{
+  margin: 8px 0;
+}
+
+.wrapper p{
+  font-size: 15px;
+}
+
+.content ul{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin: 12px 0;
+  border-radius: 5px;
+  border: 1px solid #a6a6a6;
+}
+
+.content ul li{
+  list-style: none;
+  margin: 4px 3px;
+  border-radius: 5px;
+  background: #f2f2f2;
+  padding: 5px 8px 5px 10px;
+  border: 1px solid #e3d1e1;
+}
+
+.content ul li i{
+  height: 20px;
+  width: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 8px;
+  border-radius: 50%;
+  background: #ad368a;
+  justify-content: center;
+}
+
+.content ul input{
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.wrapper .details{
+  justify-content: space-between;
+}
+
+.details button{
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 9px 15px;
+  border-radius: 8px;
+  background-color: #ad368a;
 }
 
 #output {
-  height: 75px;
-  border: solid 4px;
-  color: #44C6E3;
-
-  
+  position: absolute;
+  bottom: 150px;
+  display: contents;
 }

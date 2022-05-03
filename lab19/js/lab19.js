@@ -5,12 +5,14 @@
 */
 // :)
 
-// Pick an URL from the numbers API: http://numbersapi.com/
-//var url = "http://numbersapi.com/random/trivia";
-//var url = "https://cataas.com/cat?json=true";
-//var domain = "https://cataas.com";
-var url = "https://api.nasa.gov/planetary/apod";
-var apiKey = "UmiYgYbsi5u0vcZjdNktcvNgy7Z798AffpoSpEIp";
+/*
+* Authors: Suzy Ford & Art Rios
+* Created: 18 April 2022
+* License: Public Domain
+*/
+// :)
+
+var url = "https://xkcd.com/614/info.0.json";
 
 // When a user clicks the button
 $("#press-me").click(getAjax);
@@ -21,11 +23,7 @@ function getAjax() {
   $.ajax({
       // The URL for the request
       url: url,
-      // The data to send (will be converted to a query string)
-      data: {
-      	api_key: apiKey,
-        count: 1
-      },
+
       // Whether this is a POST or GET request
       type: "GET",
       // The type of data we expect back
@@ -34,13 +32,19 @@ function getAjax() {
   // If the request succeeds
   .done(function( data ) {
       //alert("Success!");
-      thisData = data[0];
       console.log(data);
-      fullUrl = thisData.url;
+      // Grab the record from this data
+      var thisRecord = data.records[0];
+      // get the info we want
+      var imgurl = thisRecord.images[0].baseimageurl;
+      console.log("imageurl", imgurl)
+      var title = thisRecord.title;
+      var desc = thisRecord.description;
       // Insert the output in the output div
-
-      $("#output").html("<h3>" + thisData.title);
-      $("#output").append("<img src=" + fullUrl + ">");
+      // $("#output").html("<pre>" + JSON.stringify(data, null, "\t"));
+      $("#output").html("<h2>" + title);
+      $("#output").append("<img src=" + imgurl + ">");
+      $("#output").append("<p>" + desc);
   })
   // If the request fails
   .fail(function( xhr, status, errorThrown ) {

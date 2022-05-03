@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<div class="linkbox">
-	<a class="JavaScript Link" href="js/lab15.js" target="source">JavaScript Source >></a>
-	</div>
-<title>Lab 19: AJAX</title>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<html lang="en" dir="ltr">
+  <head>
+		<meta charset="UTF-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		    <link rel="stylesheet" href="..\css\bootstrap.min.css">
+  <title>Bright Bytes</title>
+  <link rel="stylesheet" type="text/css" href="css/lab.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel=”stylesheet” href=”css/bootstrap.css”>
+  <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+  <!--Link for search magnifiyer-->
+  <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”>
+  <!--Unicons CDN Link for Icons-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
+  </head>
+  <body>
+    <div class="heading">
+       <img src="img/radish.png" class="radish">
+    <h3>Welcome to Bright Bites!</h3>
+    <h4>Find a Perfect Recipe That's Healthy and Easy to Make Such as Vegan, Poultry, Fish, or Vegetarian</h4>
+      <div class="wrapper">
+      <div class="title">
+        <h2>Tags</h2>
+      </div>
+      <div class="content">
+        <p>Press enter or add a comma after each tag</p>
+        <div class="tag-box">
+          <ul><input type="text" id="userInput"></ul>
+        </div>
+      </div>
+      <div class="details">
+        <p><span>_</span> tags are remaining</p>
+        <button>Remove All</button>
+      </div>
+    </div>
+    <div id="output">
+  </div>
+  <header>
 
-		   <link rel="stylesheet" type="text/css" href="css/lab.css">
-			 <script src="js/lab31.js" defer></script>
-</head>
-<body>
+<img srcset="img/logo.png">
+   </header>
+   <div class="footer">
+  <p>The Crew of Designers: Amanda Auld, Suzy Ford & Anthony Lopez Zamora</p>
+</div>
+    <script src="js/lab.js"></script>
 
-    <div id="content">
-        <h1>Art & Suzy's Lab 19: AJAX</h1>
-        <h2>Challenge</h2>
-        <p>Working with your partner, experiment with jQuery & AJAX.</p>
-
-        <h2>Problems</h2>
-        <p>This one took awhile as I was on my own. I did a refresher watching videos, looking at lecture,
-					and W3Schools quite a bit. The darn nav bar was a looking weird at first. Eventually I figured it out!</p>
-				<h2>Result</h2>
-
-				<button id="press-me">
-				Reload
-				</button><br>
-
-				<div id="output">
-				</div>
-		</div>
-
-			</body>
-		</main>
-	</div>
+  </body>
+</html>
 </html>
