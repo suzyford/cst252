@@ -5,11 +5,7 @@ img {
 header img {
     height: 100px;
     margin-left: 70px;
-}
-html {
-    margin: 200px;
-    margin-left: 260px;
-    padding: 0;
+    
 }
 main {
     color: white;
@@ -78,15 +74,16 @@ h4 {
 body{
   background-image: url("../img/background.jpg");
   background-position: center;
-  background-size: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
 }
+.print{
 
-.wrapper{
+  }.wrapper{
 width: 500px;
 background: #bacc9a;
 border-radius: 20px;
@@ -169,4 +166,5 @@ padding: 18px 25px 20px;
   position: absolute;
   bottom: 150px;
   display: contents;
+  color: #ffffff;
 }
