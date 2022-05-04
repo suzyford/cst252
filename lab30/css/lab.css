@@ -7,7 +7,7 @@ header img {
     margin-left: 50px;
 }
 html {
-    margin: 300px;
+    margin: 200px;
     margin-left: 260px;
     padding: 0;
 }
@@ -77,7 +77,7 @@ h4 {
 body{
   background-image: url("../img/background.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: center;
   display: flex;
   align-items: center;
   justify-content: center;
