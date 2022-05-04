@@ -76,7 +76,8 @@ h4 {
 
 body{
   background-image: url("../img/background.jpg");
-
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -86,7 +87,7 @@ body{
 
 .wrapper{
 width: 600px;
-background: #fff;
+background: #bacc9a;
 border-radius: 10px;
 padding: 18px 25px 20px;
 }
