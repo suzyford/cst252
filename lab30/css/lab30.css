@@ -6,6 +6,42 @@ header img {
     margin-left: 70px;
 }
 
+.scroller {
+  height: 1.2em;
+  line-height: 1.3em;
+  position: absolute;
+  overflow: hidden;
+  width: 20em;
+}
+.scroller > span {
+  position: inherit;
+  top: 5;
+  animation: slide 6s infinite;
+  font-weight: bold;
+  color:  #ad368a;
+
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+  100% {
+      top: -4.6em;
+
+  }
+}
+
+
+
 header {
     background-color: #ffffff;
     position: fixed;
@@ -69,7 +105,7 @@ h4 {
 }
 
 body{
-  background-image: url("../img/Backgroundcopy.jpg");
+  background-image: url("../img/Background.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
